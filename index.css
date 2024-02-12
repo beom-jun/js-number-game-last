@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+.box{
+    border-color: darkblue;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.position{
+    height: 100vh;
+        background-color: blanchedalmond;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column ;
+}
+
+.chance-font{
+    color: red;
+}
+
+.main-font{
+    font-size: 50px;
+}
+
+.result-size{
+    font-size: 30px;
+}
+
+.chance-size{
+    font-size: 30px;
+}
+
+.padding{
+    padding-bottom: 30px;
+}
+
+.padding-top{
+    padding-top: 20px;
+}
+
+ 
+body{
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+
+.background-img{
+    background: url(https://img.freepik.com/premium-vector/falling-colorful-messy-numbers-math-study-concept-with-flying-digits-decent-back-to-school-mathematics-banner-on-white-background-falling-numbers-vector-illustration_174187-7419.jpg?w=1060);
+    height: 100vh;
+}
+
+.button{
+    border: orange;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 15px;
+    font-weight: 800;
+}
+
+button:hover {
+    border-color: orange;
+    color: white;
+    box-shadow: 0 1em 1em -0.4em aqua;
+}
+
+.input-box{
+  background-color: beige;
+  border-color: aquamarine;
+  color: white;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.font-color{
+    color: black;
+}
+
+@media(max-width : 600px) {
+    .main-font{
+        font-size: 30px;
+    }
+    .result-size{
+        font-size: 12px;
+    }
+
+    .chance-size{
+        font-size: 13px;
+    }
+
+    
+}
