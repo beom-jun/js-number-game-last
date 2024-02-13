@@ -73,7 +73,16 @@ if(uservalue < 1 || uservalue >100){
 function reset() {
     userInput.value = ""
     pickRandomNum()
+    
     resultArea.textContent="HERE RESULT"
+
+    
+    
+    gameEnd = false;
+    chances = 5;
+    playButton.disabled =false;
+    chancearea.textContent =`COUNT : ${chances}`;
+    history = [];
 }
 
 
